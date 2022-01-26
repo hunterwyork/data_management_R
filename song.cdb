@@ -1,0 +1,1017 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R04902.00    [YINC-1700]                                    Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 1996, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or anything else?
+ 
+UNIVERSE: R received income from job
+ 
+      64           0
+    2141           1 TO 499
+     613         500 TO 999
+     277        1000 TO 1499
+     135        1500 TO 1999
+     143        2000 TO 2499
+      46        2500 TO 2999
+      52        3000 TO 3499
+      19        3500 TO 3999
+      18        4000 TO 4499
+       8        4500 TO 4999
+      38        5000 TO 6999
+      10        7000 TO 9999
+       5       10000 TO 19999
+       2       20000 TO 49999
+       0       50000 TO 999999: 50000+
+  -------
+    3571
+ 
+Refusal(-1)           15   (Go To R04903.00)
+Don't Know(-2)       368   (Go To R04903.00)
+TOTAL =========>    3954   VALID SKIP(-4)    5030     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:          40000        Mean:              681.63
+ 
+Lead In: R04899.00[Default] R04900.00[Default]
+Default Next Question: R04904.00
+--------------------------------------------------------------------------------
+R05363.00    [KEY!SEX]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!SEX, RS GENDER (SYMBOL)
+ 
+COMMENT: Gender of Youth
+ 
+    4599       1 Male
+    4385       2 Female
+       0       0 No Information
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              2        Mean:                1.49
+ 
+Lead In: R00001.00[Default]
+Default Next Question: R05364.00
+--------------------------------------------------------------------------------
+R05364.01    [KEY!BDATE_M]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+     816           1: January
+     693           2: February
+     760           3: March
+     659           4: April
+     689           5: May
+     720           6: June
+     762           7: July
+     782           8: August
+     839           9: September
+     765          10: October
+     763          11: November
+     736          12: December
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             12        Mean:                6.56
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Lead In: None.
+Default Next Question: R05364.02
+--------------------------------------------------------------------------------
+R05364.02    [KEY!BDATE_Y]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:           1980        Max:           1984        Mean:             1982.01
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Lead In: R05364.01[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R12358.00    [CV_SAMPLE_TYPE]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             SAMPLE TYPE.  CROSS-SECTIONAL OR OVERSAMPLE
+ 
+Sample type: Is the respondent a member of the cross-sectional sample or the 
+oversample?
+ 
+    6748       1 Cross-sectional
+    2236       0 Oversample
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              1        Mean:                 .75
+ 
+Lead In: R12338.00[Default]
+Default Next Question: R12359.00
+--------------------------------------------------------------------------------
+R14826.00    [KEY!RACE_ETHNICITY]                           Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!RACE_ETHNICITY, COMBINED RACE AND ETHNICITY (SYMBOL)
+ 
+COMMENT: Combined race - ethnicity variable
+ 
+    2335       1 Black
+    1901       2 Hispanic
+      83       3 Mixed Race (Non-Hispanic)
+    4665       4 Non-Black / Non-Hispanic
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              4        Mean:                2.79
+ 
+Lead In: R05387.00[Default]
+Default Next Question: R05389.00
+--------------------------------------------------------------------------------
+R23412.00    [YINC-1700]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 1997, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($14,048 for this variable).  Values for all cases 
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      61           0
+    1445           1 TO 499
+     633         500 TO 999
+     404        1000 TO 1499
+     162        1500 TO 1999
+     251        2000 TO 2499
+      81        2500 TO 2999
+     145        3000 TO 3499
+      31        3500 TO 3999
+      81        4000 TO 4499
+      23        4500 TO 4999
+     161        5000 TO 6999
+     136        7000 TO 99999999: 7000+
+  -------
+    3614
+ 
+Refusal(-1)           13   (Go To R23413.00)
+Don't Know(-2)       531   (Go To R23413.00)
+TOTAL =========>    4158   VALID SKIP(-4)    4228     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:          14048        Mean:             1512.42
+ 
+Lead In: R23409.00[Default] R23410.00[Default]
+Default Next Question: R23414.00
+--------------------------------------------------------------------------------
+R36502.00    [YINC-1700]                                    Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 1998, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($25,249 for this variable).  Values for all cases 
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      43           0
+     833           1 TO 499
+     479         500 TO 999
+     422        1000 TO 1499
+     174        1500 TO 1999
+     303        2000 TO 2499
+      82        2500 TO 2999
+     187        3000 TO 3499
+      42        3500 TO 3999
+     148        4000 TO 4499
+      31        4500 TO 4999
+     261        5000 TO 6999
+     422        7000 TO 99999999: 7000+
+  -------
+    3427
+ 
+Refusal(-1)           24   (Go To R36503.00)
+Don't Know(-2)       781   (Go To R36503.00)
+TOTAL =========>    4232   VALID SKIP(-4)    3976     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:          25249        Mean:              2985.6
+ 
+Lead In: R36499.00[Default] R36500.00[Default]
+Default Next Question: R36504.00
+--------------------------------------------------------------------------------
+R50989.00    [YINC-1700]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 1999, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($23,000 for this variable).  Values for all cases 
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      37           0
+     892           1 TO 999
+     536        1000 TO 1999
+     486        2000 TO 2999
+     346        3000 TO 3999
+     215        4000 TO 4999
+     241        5000 TO 5999
+     141        6000 TO 6999
+     120        7000 TO 7999
+     119        8000 TO 8999
+      72        9000 TO 9999
+     374       10000 TO 14999
+     148       15000 TO 19999
+      49       20000 TO 24999
+      78       25000 TO 49999
+       0       50000 TO 99999999: 50000+
+  -------
+    3854
+ 
+Refusal(-1)           11   (Go To R50990.00)
+Don't Know(-2)      1064   (Go To R50990.00)
+TOTAL =========>    4929   VALID SKIP(-4)    3151     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:          30623        Mean:              4814.4
+ 
+Lead In: R50986.00[Default] R50987.00[Default]
+Default Next Question: R50991.00
+--------------------------------------------------------------------------------
+R68275.00    [YINC-1700]                                    Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2000, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($28,000 for this variable).  Values for all cases 
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      35           0
+     586           1 TO 999
+     529        1000 TO 1999
+     545        2000 TO 2999
+     417        3000 TO 3999
+     258        4000 TO 4999
+     318        5000 TO 5999
+     203        6000 TO 6999
+     157        7000 TO 7999
+     175        8000 TO 8999
+      71        9000 TO 9999
+     583       10000 TO 14999
+     297       15000 TO 19999
+     188       20000 TO 24999
+     151       25000 TO 49999
+       0       50000 TO 99999999: 50000+
+  -------
+    4513
+ 
+Refusal(-1)           26   (Go To R68276.00)
+Don't Know(-2)       891   (Go To R68276.00)
+TOTAL =========>    5430   VALID SKIP(-4)    2452     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:          35558        Mean:             6801.12
+ 
+Lead In: R68272.00[Default] R68273.00[Default]
+Default Next Question: R68277.00
+--------------------------------------------------------------------------------
+S10558.00    [YINC-1700]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2001, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($34,000 for this variable).  Values for all cases 
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      24           0
+     350           1 TO 999
+     394        1000 TO 1999
+     415        2000 TO 2999
+     320        3000 TO 3999
+     235        4000 TO 4999
+     307        5000 TO 5999
+     206        6000 TO 6999
+     167        7000 TO 7999
+     182        8000 TO 8999
+     110        9000 TO 9999
+     663       10000 TO 14999
+     410       15000 TO 19999
+     273       20000 TO 24999
+     283       25000 TO 49999
+       0       50000 TO 99999999: 50000+
+  -------
+    4339
+ 
+Refusal(-1)           40   (Go To S10559.00)
+Don't Know(-2)      1485   (Go To S10559.00)
+TOTAL =========>    5864   VALID SKIP(-4)    2032     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:          42458        Mean:             9027.96
+ 
+Lead In: S10555.00[Default] S10556.00[Default]
+Default Next Question: S10560.00
+--------------------------------------------------------------------------------
+S31346.00    [YINC-1700]                                    Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2002, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($ 35,000 for this variable).  Values for all cases
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      24           0
+     246           1 TO 999
+     303        1000 TO 1999
+     316        2000 TO 2999
+     277        3000 TO 3999
+     206        4000 TO 4999
+     307        5000 TO 5999
+     170        6000 TO 6999
+     163        7000 TO 7999
+     198        8000 TO 8999
+     115        9000 TO 9999
+     818       10000 TO 14999
+     535       15000 TO 19999
+     392       20000 TO 24999
+     453       25000 TO 49999
+       0       50000 TO 99999999: 50000+
+  -------
+    4523
+ 
+Refusal(-1)           28   (Go To S31347.00)
+Don't Know(-2)      1449   (Go To S31347.00)
+TOTAL =========>    6000   VALID SKIP(-4)    1754     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:          44091        Mean:            11180.28
+ 
+Lead In: S31344.00[Default] S31345.00[Default]
+Default Next Question: S31348.00
+--------------------------------------------------------------------------------
+S47996.00    [YINC-1700]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2003, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($ 43,000 for this variable).  Values for all cases
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      36           0
+     164           1 TO 999
+     217        1000 TO 1999
+     213        2000 TO 2999
+     217        3000 TO 3999
+     155        4000 TO 4999
+     224        5000 TO 5999
+     147        6000 TO 6999
+     142        7000 TO 7999
+     170        8000 TO 8999
+      92        9000 TO 9999
+     805       10000 TO 14999
+     644       15000 TO 19999
+     530       20000 TO 24999
+     651       25000 TO 49999
+      86       50000 TO 99999999: 50000+
+  -------
+    4493
+ 
+Refusal(-1)           32   (Go To S47997.00)
+Don't Know(-2)      1464   (Go To S47997.00)
+TOTAL =========>    5989   VALID SKIP(-4)    1513     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:          70712        Mean:            14372.87
+ 
+Lead In: S47994.00[Default] S47995.00[Default]
+Default Next Question: S47998.00
+--------------------------------------------------------------------------------
+S65010.00    [YINC-1700]                                    Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2004, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($ 69,342 for this variable).  Values for all cases
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      31           0
+     122           1 TO 999
+     126        1000 TO 1999
+     175        2000 TO 2999
+     149        3000 TO 3999
+     148        4000 TO 4999
+     177        5000 TO 5999
+     131        6000 TO 6999
+     107        7000 TO 7999
+     143        8000 TO 8999
+      86        9000 TO 9999
+     755       10000 TO 14999
+     635       15000 TO 19999
+     628       20000 TO 24999
+    1071       25000 TO 49999
+     105       50000 TO 99999999: 50000+
+  -------
+    4589
+ 
+Refusal(-1)           29   (Go To S65011.00)
+Don't Know(-2)      1365   (Go To S65011.00)
+TOTAL =========>    5983   VALID SKIP(-4)    1355     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:          69342        Mean:            17316.09
+ 
+Lead In: S65008.00[Default] S65009.00[Default]
+Default Next Question: S65012.00
+--------------------------------------------------------------------------------
+S84965.00    [YINC-1700]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2005, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($ 80,471 for this variable).  Values for all cases
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      29           0
+      94           1 TO 999
+     128        1000 TO 1999
+     134        2000 TO 2999
+     133        3000 TO 3999
+     100        4000 TO 4999
+     177        5000 TO 5999
+     114        6000 TO 6999
+      91        7000 TO 7999
+      94        8000 TO 8999
+      68        9000 TO 9999
+     728       10000 TO 14999
+     709       15000 TO 19999
+     689       20000 TO 24999
+    1575       25000 TO 49999
+     223       50000 TO 99999999: 50000+
+  -------
+    5086
+ 
+Refusal(-1)           48   (Go To S84966.00)
+Don't Know(-2)      1252   (Go To S84966.00)
+TOTAL =========>    6386   VALID SKIP(-4)    1173     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:          80471        Mean:            20686.46
+ 
+Lead In: S84963.00[Default] S84964.00[Default]
+Default Next Question: S84967.00
+--------------------------------------------------------------------------------
+T08898.00    [YINC-1700]                                    Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2006, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($ 70,000 for this variable).  Values for all cases
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      46           0
+      66           1 TO 999
+      96        1000 TO 1999
+      97        2000 TO 2999
+     106        3000 TO 3999
+      84        4000 TO 4999
+     115        5000 TO 5999
+      84        6000 TO 6999
+      60        7000 TO 7999
+     114        8000 TO 8999
+      59        9000 TO 9999
+     613       10000 TO 14999
+     596       15000 TO 19999
+     687       20000 TO 24999
+    1912       25000 TO 49999
+     369       50000 TO 99999999: 50000+
+  -------
+    5104
+ 
+Refusal(-1)           38   (Go To T08899.00)
+Don't Know(-2)      1219   (Go To T08899.00)
+TOTAL =========>    6361   VALID SKIP(-4)    1057     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:         112215        Mean:            24583.49
+ 
+Lead In: T08896.00[Default] T08897.00[Default]
+Default Next Question: T08900.00
+--------------------------------------------------------------------------------
+T30030.00    [YINC-1700]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2007, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($ 74,900 for this variable).  Values for all cases
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      37           0
+      75           1 TO 999
+      68        1000 TO 1999
+      81        2000 TO 2999
+      90        3000 TO 3999
+      64        4000 TO 4999
+     126        5000 TO 5999
+      69        6000 TO 6999
+      54        7000 TO 7999
+      99        8000 TO 8999
+      49        9000 TO 9999
+     559       10000 TO 14999
+     569       15000 TO 19999
+     630       20000 TO 24999
+    2285       25000 TO 49999
+     609       50000 TO 99999999: 50000+
+  -------
+    5464
+ 
+Refusal(-1)           70   (Go To T30031.00)
+Don't Know(-2)       882   (Go To T30031.00)
+TOTAL =========>    6416   VALID SKIP(-4)    1074     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:         104353        Mean:            27749.27
+ 
+Lead In: T30028.00[Default] T30029.00[Default]
+Default Next Question: T30032.00
+--------------------------------------------------------------------------------
+T44060.00    [YINC-1700]                                    Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2008, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($ 84,000 for this variable).  Values for all cases
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      35           0
+      80           1 TO 999
+      69        1000 TO 1999
+      74        2000 TO 2999
+      79        3000 TO 3999
+      75        4000 TO 4999
+     103        5000 TO 5999
+      61        6000 TO 6999
+      55        7000 TO 7999
+      78        8000 TO 8999
+      43        9000 TO 9999
+     529       10000 TO 14999
+     493       15000 TO 19999
+     615       20000 TO 24999
+    2471       25000 TO 49999
+     802       50000 TO 99999999: 50000+
+  -------
+    5662
+ 
+Refusal(-1)           54   (Go To T44061.00)
+Don't Know(-2)       654   (Go To T44061.00)
+TOTAL =========>    6370   VALID SKIP(-4)    1189     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:         121993        Mean:            30306.99
+ 
+Lead In: T44058.00[Default] T44059.00[Default]
+Default Next Question: T44062.00
+--------------------------------------------------------------------------------
+T60555.00    [YINC-1700]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2009, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($ 88,000 for this variable).  Values for all cases
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      37           0
+      85           1 TO 999
+      55        1000 TO 1999
+      77        2000 TO 2999
+      71        3000 TO 3999
+      60        4000 TO 4999
+      83        5000 TO 5999
+      52        6000 TO 6999
+      45        7000 TO 7999
+      66        8000 TO 8999
+      48        9000 TO 9999
+     465       10000 TO 14999
+     474       15000 TO 19999
+     564       20000 TO 24999
+    2183       25000 TO 49999
+     893       50000 TO 99999999: 50000+
+  -------
+    5258
+ 
+Refusal(-1)           45   (Go To T60556.00)
+Don't Know(-2)       641   (Go To T60556.00)
+TOTAL =========>    5944   VALID SKIP(-4)    1535     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:         130254        Mean:             31785.2
+ 
+Lead In: T60553.00[Default] T60554.00[Default]
+Default Next Question: T60557.00
+--------------------------------------------------------------------------------
+T75456.00    [YINC-1700]                                    Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2010, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($ 94,000 for this variable).  Values for all cases
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      24           0
+      80           1 TO 999
+      59        1000 TO 1999
+      50        2000 TO 2999
+      56        3000 TO 3999
+      57        4000 TO 4999
+      67        5000 TO 5999
+      59        6000 TO 6999
+      58        7000 TO 7999
+      58        8000 TO 8999
+      49        9000 TO 9999
+     390       10000 TO 14999
+     473       15000 TO 19999
+     546       20000 TO 24999
+    2226       25000 TO 49999
+    1050       50000 TO 99999999: 50000+
+  -------
+    5302
+ 
+Refusal(-1)           64   (Go To T75457.00)
+Don't Know(-2)       523   (Go To T75457.00)
+TOTAL =========>    5889   VALID SKIP(-4)    1534     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:         146002        Mean:            34163.66
+ 
+Lead In: T75454.00[Default] T75455.00[Default]
+Default Next Question: T75458.00
+--------------------------------------------------------------------------------
+T89767.00    [YINC-1700]                                    Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2012, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($ 112,000 for this variable).  Values for all 
+cases at or over that level are averaged. That average is then assigned to each 
+of the top 2 percent of the cases.
+ 
+      31           0
+      50           1 TO 999
+      53        1000 TO 1999
+      51        2000 TO 2999
+      58        3000 TO 3999
+      47        4000 TO 4999
+      86        5000 TO 5999
+      55        6000 TO 6999
+      48        7000 TO 7999
+      66        8000 TO 8999
+      29        9000 TO 9999
+     357       10000 TO 14999
+     345       15000 TO 19999
+     472       20000 TO 24999
+    2127       25000 TO 49999
+    1349       50000 TO 99999999: 50000+
+  -------
+    5224
+ 
+Refusal(-1)           73   (Go To T89768.00)
+Don't Know(-2)       533   (Go To T89768.00)
+TOTAL =========>    5830   VALID SKIP(-4)    1310     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:         180331        Mean:            38242.89
+ 
+Lead In: T89765.00[Default] T89766.00[Default]
+Default Next Question: T89769.00
+--------------------------------------------------------------------------------
+U09569.00    [YINC-1700]                                    Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2014, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($ 135,000 for this variable).  Values for all 
+cases at or over that level are averaged. That average is then assigned to each 
+of the top 2 percent of the cases.
+ 
+      23           0
+      52           1 TO 999
+      36        1000 TO 1999
+      39        2000 TO 2999
+      28        3000 TO 3999
+      23        4000 TO 4999
+      72        5000 TO 5999
+      37        6000 TO 6999
+      40        7000 TO 7999
+      46        8000 TO 8999
+      26        9000 TO 9999
+     267       10000 TO 14999
+     305       15000 TO 19999
+     397       20000 TO 24999
+    1952       25000 TO 49999
+    1644       50000 TO 99999999: 50000+
+  -------
+    4987
+ 
+Refusal(-1)           70   (Go To U09570.00)
+Don't Know(-2)       713   (Go To U09570.00)
+TOTAL =========>    5770   VALID SKIP(-4)    1333     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:         212641        Mean:            44181.51
+ 
+Lead In: U09567.00[Default] U09568.00[Default]
+Default Next Question: U09571.00
+--------------------------------------------------------------------------------
+U28572.00    [YINC-1700]                                    Survey Year: 2017
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2016, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($ 149,000 for this variable).  Values for all 
+cases at or over that level are averaged. That average is then assigned to each 
+of the top 2 percent of the cases.
+ 
+      31           0
+     159           1 TO 4999
+     174        5000 TO 9999
+     239       10000 TO 14999
+     256       15000 TO 19999
+     329       20000 TO 24999
+     397       25000 TO 29999
+     799       30000 TO 39999
+     724       40000 TO 49999
+     546       50000 TO 59999
+     396       60000 TO 69999
+     280       70000 TO 79999
+     191       80000 TO 89999
+     138       90000 TO 99999
+     311      100000 TO 149999
+     121      150000 TO 99999999: 150000+
+  -------
+    5091
+ 
+Refusal(-1)           68   (Go To U28573.00)
+Don't Know(-2)       362   (Go To U28573.00)
+Invalid Skip(-3)       2
+TOTAL =========>    5523   VALID SKIP(-4)    1211     NON-INTERVIEW(-5)    2250
+ 
+Min:              0        Max:         235884        Mean:            49477.02
+ 
+Lead In: U28570.00[Default] U28571.00[Default]
+Default Next Question: U28574.00
+--------------------------------------------------------------------------------
+U42823.00    [YINC-1700]                                    Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2018, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($ 178,000 for this variable).  Values for all 
+cases at or over that level are averaged. That average is then assigned to each 
+of the top 2 percent of the cases.
+ 
+      36           0
+     146           1 TO 4999
+     159        5000 TO 9999
+     198       10000 TO 14999
+     232       15000 TO 19999
+     298       20000 TO 24999
+     355       25000 TO 29999
+     768       30000 TO 39999
+     684       40000 TO 49999
+     620       50000 TO 59999
+     490       60000 TO 69999
+     350       70000 TO 79999
+     276       80000 TO 89999
+     163       90000 TO 99999
+     428      100000 TO 149999
+     209      150000 TO 99999999: 150000+
+  -------
+    5412
+ 
+Refusal(-1)           66   (Go To U42824.00)
+Don't Know(-2)       269   (Go To U42824.00)
+TOTAL =========>    5747   VALID SKIP(-4)    1200     NON-INTERVIEW(-5)    2037
+ 
+Min:              0        Max:         328451        Mean:            57217.16
+ 
+Lead In: U42821.00[Default] U42822.00[Default]
+Default Next Question: U42825.00
