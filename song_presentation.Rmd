@@ -60,10 +60,9 @@ knitr::opts_chunk$set(echo = T, mysize = T, size='\\tiny',
 
 :::: column
 
-  > - Second-year PhD student in Sociology at Princeton
-  > - Office of Population Research Affiliate
-  > - Formerly: MPH at UW and researcher at Institute for Health Metrics and Evaluation
-  > - Formerly: AB at Harvard in  Human Evolutionary Biology and Music
+  > - Second-year PhD student in Sociology at Princeton, Office of Population Research Affiliate
+  > - Formerly: MPH at UW and researcher at Institute for Health Metrics and Evaluation, Formerly: AB at Harvard in  Human Evolutionary Biology and Music
+  > - Interests: Stratification, culture, quant
 
 ::::
 
@@ -91,8 +90,25 @@ knitr::opts_chunk$set(echo = T, mysize = T, size='\\tiny',
   > - [Super Basic Git Workflow for collaboration (fork, edit, push, pull request)](https://github.com/hunterwyork/microteaching)
   > - [The Summer Institutes in Computational Social Science!!](https://sicss.io/overview)
   > - [R for Data Science](https://r4ds.had.co.nz/index.html)
+  > - [Data.table cheatsheet](http://datacamp-community-prod.s3.amazonaws.com/008e41e8-7526-4bbc-806b-8c828dfb81d4)
+  > - [Dplyr cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+  > - [ggplot cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf)
+  > - [Other cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
 
 # Questions?
+
+# Why I'm teaching what I'm teaching.
+
+## Outline
+
+  > - Project Design and Data Management
+  > - Code Optimization
+  >     - Principles of
+  >     - Profiling
+  >     - Vectorizing Code
+  >     - Some examples of bad code
+  > - Data Management and Reshaping Efficiently
+  > - Parallelization
 
 # Project Design and Data Management
 
@@ -135,6 +151,7 @@ knitr::opts_chunk$set(echo = T, mysize = T, size='\\tiny',
   >     - "../code", "../inputs", "../outputs", "../ref"
   > - Start a git repository in the main directory and keep up-to-date with GitHub.
   >     - For a helpful introduction to Git a. GitHub: [https://www.analyticsvidhya.com/blog/2020/05/git-github-essential-guide-beginners/](https://www.analyticsvidhya.com/blog/2020/05/git-github-essential-guide-beginners/)
+  >     - [Super Basic Git Workflow for collaboration (fork, edit, push, pull request)](https://github.com/hunterwyork/microteaching)
   >     - NB: Git has a lot of features built out for collaboration that are not necessary for basic data management. If you learn a simple "add," "commit," "push" workflow, it will serve most of your needs.
 
 ## Workflows
@@ -197,82 +214,13 @@ c("Hunter", "Mary", "Sol",
   > - [http://adv-r.had.co.nz/Style.html](http://adv-r.had.co.nz/Style.html)
   > - [lintr](https://cran.r-project.org/web/packages/lintr/index.html)
 
-##
+## Mass Collaboration
 
-![Tweet](image_9.png){#id .class width=350 height=200}
-
-## Some actual examples of less-than-ideal code I found on the internet
-
-### Original Code - Repeated tasks
-
-```{r, eval = F}
-# ORIGINAL
-#remove idnumb, other ids
-data[which(colnames(data) == "idnumb")] <- NULL
-data[which(colnames(data) == "challengeIDs")] <- NULL
-data[which(colnames(data) == "mothids1")] <- NULL
-data[which(colnames(data) == "mothids2")] <- NULL
-data[which(colnames(data) == "mothids3")] <- NULL
-data[which(colnames(data) == "mothids4")] <- NULL
-data[which(colnames(data) == "hv3mothids3")] <- NULL
-data[which(colnames(data) == "hv4mothids4")] <- NULL
-data[which(colnames(data) == "fathids1")] <- NULL
-```
-
-\pause
-### Alternative Code - Using Built-In Functions
-
-```{r, eval = F}
-# ALTERNATIVE DPLYR
-data <- data %>% select (-c(idnumb, challengeIDs, mothids1,
-                            mothids2, mothids4, "........"))
-# ALTERNATIVE DATA.TABLE
-data[, c("idnum", "challengeID", "mothids1",
-         "mothids2", "mothid4s", "........") := NULL]
-```
-
-## Some actual examples of less-than-ideal code I found on the internet
-
-### Original: The problem - Calling a function once, on one dataset, using dataset names in the function
-
-```{r, eval = F}
-# ORIGINAL
-# Remove cols with > 50% missing data 
-f_lowInfo <- function(data) {
-  ncols = ncol(data)
-  nrows = nrow(data)
-  to_remove = integer(ncols)
-  for (i in 1:ncols) {
-    if (sum(is.na(data[i])) > .5*nrows) {
-      to_remove[i] = 1
-    }
-  }
-  data[to_remove == 1] <- NULL
-  return(data)
-}
-data <- f_lowInfo(data)
-```
-
-## Some actual examples of less-than-ideal code I found on the internet
-
-### Alternative Code - Define a function, apply it multiple times, make it flexible
-
-```{r, eval = F}
-# ALTERNATIVE
-is_col_missing <- function(c.vector){ # create a function to see if a vector is
-  return(mean(is.na(c.vector)) > .5)  # over half missing. Use that TRUE = 1, and
-}                                     # FALSE = T to our advantage
-# Apply across columns of data.frame
-data %>% summarize(across(.cols = everything(), is_col_missing)) -> to_remove
-data <- data[,to_remove == 0] # remove predominantly empty columns
-```
-
-\pause
-### Solution explained
-
-  - This solution capitalizes on the idea that a function should be portable and should probably be used more than once if it really deserves to be a function.
-  - Capitalizes on the structure of data frames as just groups of same-length vectors.
-  
+  > - I've worked on several 20+ author papers (and a few 1000+), but usually one one or two people are really in charge of data analysis, or it uses a structure where people work on separate chunks of code.
+  > - Git provides a more truly collaborative alternative!
+  > - Collaboration is hard. Tools like git, trello, and slack help. 
+  > - Working in a lab setting? Use a lab handbook: [link](https://twitter.com/samuelmehr/status/1139733291899080705)
+  > - Keys: norms, coordination, and communication.
   
 # Questions?
 
@@ -669,6 +617,82 @@ lapply(vars_vec, modr, c.outcome = "inc_2019", c.dat = new_data) %>%
 head(all_betas)
 ```
 
+##
+
+![Tweet](image_9.png){#id .class width=350 height=200}
+
+## Some actual examples of less-than-ideal code I found on the internet
+
+### Original Code - Repeated tasks
+
+```{r, eval = F}
+# ORIGINAL
+#remove idnumb, other ids
+data[which(colnames(data) == "idnumb")] <- NULL
+data[which(colnames(data) == "challengeIDs")] <- NULL
+data[which(colnames(data) == "mothids1")] <- NULL
+data[which(colnames(data) == "mothids2")] <- NULL
+data[which(colnames(data) == "mothids3")] <- NULL
+data[which(colnames(data) == "mothids4")] <- NULL
+data[which(colnames(data) == "hv3mothids3")] <- NULL
+data[which(colnames(data) == "hv4mothids4")] <- NULL
+data[which(colnames(data) == "fathids1")] <- NULL
+```
+
+\pause
+### Alternative Code - Using Built-In Functions
+
+```{r, eval = F}
+# ALTERNATIVE DPLYR
+data <- data %>% select (-c(idnumb, challengeIDs, mothids1,
+                            mothids2, mothids4, "........"))
+# ALTERNATIVE DATA.TABLE
+data[, c("idnum", "challengeID", "mothids1",
+         "mothids2", "mothid4s", "........") := NULL]
+```
+
+## Some actual examples of less-than-ideal code I found on the internet
+
+### Original: The problem - Calling a function once, on one dataset, using dataset names in the function
+
+```{r, eval = F}
+# ORIGINAL
+# Remove cols with > 50% missing data 
+f_lowInfo <- function(data) {
+  ncols = ncol(data)
+  nrows = nrow(data)
+  to_remove = integer(ncols)
+  for (i in 1:ncols) {
+    if (sum(is.na(data[i])) > .5*nrows) {
+      to_remove[i] = 1
+    }
+  }
+  data[to_remove == 1] <- NULL
+  return(data)
+}
+data <- f_lowInfo(data)
+```
+
+## Some actual examples of less-than-ideal code I found on the internet
+
+### Alternative Code - Define a function, apply it multiple times, make it flexible
+
+```{r, eval = F}
+# ALTERNATIVE
+is_col_missing <- function(c.vector){ # create a function to see if a vector is
+  return(mean(is.na(c.vector)) > .5)  # over half missing. Use that TRUE = 1, and
+}                                     # FALSE = T to our advantage
+# Apply across columns of data.frame
+data %>% summarize(across(.cols = everything(), is_col_missing)) -> to_remove
+data <- data[,to_remove == 0] # remove predominantly empty columns
+```
+
+\pause
+### Solution explained
+
+  - This solution capitalizes on the idea that a function should be portable and should probably be used more than once if it really deserves to be a function.
+  - Capitalizes on the structure of data frames as just groups of same-length vectors.
+
 ## Dplyr and data.table
 
   > - When equivalent operations exist in base R and dplyr or data.table, use either of the latter
@@ -859,48 +883,25 @@ parallel::mclapply(vars_vec, modr, c.outcome = "inc_2019",
   rbindlist() -> all_betas
 ```
 
-## Parallelization
-
-### Serial - 1 Iteration
-
-
-```{r slide8.11, time_it = T, warning=F, error=F, message=F}
-modr(vars_vec[[1]], c.dat = new_data, c.outcome = "inc_2019")
-```
-
-
-### Parallel - 2 Iterations
-
-
-```{r slide8.4, time_it = T, warning=F, error=F, message=F}
-parallel::mclapply(vars_vec[1:2], modr, c.outcome = "inc_2019",
-                   c.dat = new_data, mc.cores = 4) %>% 
-  rbindlist() -> all_betas
-```
-
-
-### Serial - 2 Iterations
-
-
-```{r slide8.5, time_it = T, warning=F, error=F}
-lapply(vars_vec[1:2], modr, c.outcome = "inc_2019",
-                   c.dat = new_data) %>% 
-  rbindlist() -> all_betas
-```
-
-
 There is overhead associated with despatching and receiving each task, resulting in a tradeoff that you have to manage!
 
     
 ## Parallelization 
 
   > - The backends of several packages in R will automatically parallelize. 
-    + Model-fitting, loading data, etc.
+  >     - Model-fitting, loading data, etc.
   > - This is a handy tool to learn if you need to use cluster-based supercomputing since there are similar concepts.
   
 
 
 # Questions, comments?
+
+## Thank you!
+
+  > - I can be reached at [hyork@princeton.edu](hyork@princeton.edu)
+  > - Check out my website [hunterwyork.com](www.hunterwyork.com)
+  > - If you found this presentation useful, share it!
+  > - Rmarkdown file and slides are [here](https://github.com/hunterwyork/data_management_R).
 
 
 
