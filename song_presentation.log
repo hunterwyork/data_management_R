@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 JUN 2022 19:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  10 JUN 2022 09:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -787,6 +787,9 @@ LaTeX Warning: Label `id' multiply defined.
 
 LaTeX Warning: Label `id' multiply defined.
 
+
+LaTeX Warning: Label `id' multiply defined.
+
 )
 \openout1 = `song_presentation.aux'.
 
@@ -1044,620 +1047,626 @@ been already used, duplicate ignored
 l.180 \end{frame}
                   [8
 
-]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 201.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 201.
-[9
+] [9
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{useful-links
-}) has been already used, duplicate ignored
+resources}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.201 \end{frame}
+l.211 \end{frame}
                   [10
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{useful-links
-}) has been already used, duplicate ignored
+resources}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.201 \end{frame}
+l.211 \end{frame}
                   [11
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{useful-links
-}) has been already used, duplicate ignored
+resources}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.201 \end{frame}
+l.211 \end{frame}
                   [12
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{useful-links
-}) has been already used, duplicate ignored
+resources}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.201 \end{frame}
+l.211 \end{frame}
                   [13
 
-] [14
-
-] [15
-
-]pdfTeX warning (ext4): destination with the same identifier (name{outline}) ha
-s been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{useful-links
+resources}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.229 \end{frame}
+l.211 \end{frame}
+                  [14
+
+]pdfTeX warning (ext4): destination with the same identifier (name{useful-links
+resources}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.211 \end{frame}
+                  [15
+
+]pdfTeX warning (ext4): destination with the same identifier (name{useful-links
+resources}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.211 \end{frame}
                   [16
 
-]pdfTeX warning (ext4): destination with the same identifier (name{outline}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.229 \end{frame}
-                  [17
+] [17
 
-]pdfTeX warning (ext4): destination with the same identifier (name{outline}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.229 \end{frame}
-                  [18
+] [18
 
-]pdfTeX warning (ext4): destination with the same identifier (name{outline}) ha
-s been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{nota-bene}) 
+has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.229 \end{frame}
+l.237 \end{frame}
                   [19
 
-]pdfTeX warning (ext4): destination with the same identifier (name{outline}) ha
-s been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{nota-bene}) 
+has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.229 \end{frame}
+l.237 \end{frame}
                   [20
 
+]pdfTeX warning (ext4): destination with the same identifier (name{nota-bene}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.237 \end{frame}
+                  [21
+
+]pdfTeX warning (ext4): destination with the same identifier (name{nota-bene}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.237 \end{frame}
+                  [22
+
+]pdfTeX warning (ext4): destination with the same identifier (name{nota-bene}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.237 \end{frame}
+                  [23
+
+] [24
+
 ]pdfTeX warning (ext4): destination with the same identifier (name{outline}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.229 \end{frame}
-                  [21
+l.262 \end{frame}
+                  [25
 
-] [22
+]pdfTeX warning (ext4): destination with the same identifier (name{outline}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.262 \end{frame}
+                  [26
+
+]pdfTeX warning (ext4): destination with the same identifier (name{outline}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.262 \end{frame}
+                  [27
+
+]pdfTeX warning (ext4): destination with the same identifier (name{outline}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.262 \end{frame}
+                  [28
+
+]pdfTeX warning (ext4): destination with the same identifier (name{outline}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.262 \end{frame}
+                  [29
+
+]pdfTeX warning (ext4): destination with the same identifier (name{outline}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.262 \end{frame}
+                  [30
+
+] [31
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{id}) has bee
 n already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.270 \end{frame}
+l.301 \end{frame}
                  
-<Git-Logo-2Color.png, id=206, 913.4125pt x 381.425pt>
+<Git-Logo-2Color.png, id=310, 913.4125pt x 381.425pt>
 File: Git-Logo-2Color.png Graphic file (type png)
 <use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 270.
+Package pdftex.def Info: Git-Logo-2Color.png  used on input line 301.
 (pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
 pdfTeX warning (ext4): destination with the same identifier (name{id}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.270 \end{frame}
-                  [23
+l.301 \end{frame}
+                  [32
 
  <./Git-Logo-2Color.png>]pdfTeX warning (ext4): destination with the same ident
 ifier (name{git}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.270 \end{frame}
+l.301 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{id}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.270 \end{frame}
+l.301 \end{frame}
                  
 File: Git-Logo-2Color.png Graphic file (type png)
 <use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 270.
+Package pdftex.def Info: Git-Logo-2Color.png  used on input line 301.
 (pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
-[24
-
-]pdfTeX warning (ext4): destination with the same identifier (name{git}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.270 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{id}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.270 \end{frame}
-                 
-File: Git-Logo-2Color.png Graphic file (type png)
-<use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 270.
-(pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
-[25
-
-]pdfTeX warning (ext4): destination with the same identifier (name{git}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.270 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{id}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.270 \end{frame}
-                 
-File: Git-Logo-2Color.png Graphic file (type png)
-<use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 270.
-(pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
-[26
-
-]pdfTeX warning (ext4): destination with the same identifier (name{git}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.270 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{id}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.270 \end{frame}
-                 
-File: Git-Logo-2Color.png Graphic file (type png)
-<use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 270.
-(pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
-[27
-
-]pdfTeX warning (ext4): destination with the same identifier (name{id}) has bee
-n already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.315 \end{frame}
-                 
-File: Git-Logo-2Color.png Graphic file (type png)
-<use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 315.
-(pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
-pdfTeX warning (ext4): destination with the same identifier (name{id}) has been
- already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.315 \end{frame}
-                 
-Overfull \vbox (33.76984pt too high) detected at line 315
- []
-
-[28
-
-]pdfTeX warning (ext4): destination with the same identifier (name{why-use-git}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.315 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{id}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.315 \end{frame}
-                 
-File: Git-Logo-2Color.png Graphic file (type png)
-<use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 315.
-(pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
-
-Overfull \vbox (33.76984pt too high) detected at line 315
- []
-
-[29
-
-]pdfTeX warning (ext4): destination with the same identifier (name{why-use-git}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.315 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{id}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.315 \end{frame}
-                 
-File: Git-Logo-2Color.png Graphic file (type png)
-<use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 315.
-(pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
-
-Overfull \vbox (33.76984pt too high) detected at line 315
- []
-
-[30
-
-]pdfTeX warning (ext4): destination with the same identifier (name{why-use-git}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.315 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{id}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.315 \end{frame}
-                 
-File: Git-Logo-2Color.png Graphic file (type png)
-<use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 315.
-(pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
-
-Overfull \vbox (33.76984pt too high) detected at line 315
- []
-
-[31
-
-]pdfTeX warning (ext4): destination with the same identifier (name{why-use-git}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.315 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{id}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.315 \end{frame}
-                 
-File: Git-Logo-2Color.png Graphic file (type png)
-<use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 315.
-(pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
-
-Overfull \vbox (33.76984pt too high) detected at line 315
- []
-
-[32
-
-]pdfTeX warning (ext4): destination with the same identifier (name{why-use-git}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.315 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{id}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.315 \end{frame}
-                 
-File: Git-Logo-2Color.png Graphic file (type png)
-<use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 315.
-(pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
-
-Overfull \vbox (33.76984pt too high) detected at line 315
- []
-
 [33
 
-]pdfTeX warning (ext4): destination with the same identifier (name{why-use-git}
-) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{git}) has be
+en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.315 \end{frame}
+l.301 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{id}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.315 \end{frame}
+l.301 \end{frame}
                  
 File: Git-Logo-2Color.png Graphic file (type png)
 <use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 315.
+Package pdftex.def Info: Git-Logo-2Color.png  used on input line 301.
 (pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
-
-Overfull \vbox (33.76984pt too high) detected at line 315
- []
-
 [34
 
-]pdfTeX warning (ext4): destination with the same identifier (name{id}) has bee
-n already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{git}) has be
+en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.356 \end{frame}
-                 
-File: Git-Logo-2Color.png Graphic file (type png)
-<use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 356.
-(pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
-pdfTeX warning (ext4): destination with the same identifier (name{id}) has been
- already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.356 \end{frame}
-                  [35
-
-]pdfTeX warning (ext4): destination with the same identifier (name{why-not-to-u
-se-git}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.356 \end{frame}
+l.301 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{id}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.356 \end{frame}
+l.301 \end{frame}
                  
 File: Git-Logo-2Color.png Graphic file (type png)
 <use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 356.
+Package pdftex.def Info: Git-Logo-2Color.png  used on input line 301.
+(pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
+[35
+
+]pdfTeX warning (ext4): destination with the same identifier (name{git}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.301 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{id}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.301 \end{frame}
+                 
+File: Git-Logo-2Color.png Graphic file (type png)
+<use Git-Logo-2Color.png>
+Package pdftex.def Info: Git-Logo-2Color.png  used on input line 301.
 (pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
 [36
 
-]pdfTeX warning (ext4): destination with the same identifier (name{why-not-to-u
-se-git}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{id}) has bee
+n already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.356 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{id}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.356 \end{frame}
+l.343 \end{frame}
                  
 File: Git-Logo-2Color.png Graphic file (type png)
 <use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 356.
+Package pdftex.def Info: Git-Logo-2Color.png  used on input line 343.
 (pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
-[37
-
-]pdfTeX warning (ext4): destination with the same identifier (name{why-not-to-u
-se-git}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{id}) has been
+ already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.356 \end{frame}
+l.343 \end{frame}
+                  [37
+
+]pdfTeX warning (ext4): destination with the same identifier (name{why-use-git}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.343 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{id}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.356 \end{frame}
+l.343 \end{frame}
                  
 File: Git-Logo-2Color.png Graphic file (type png)
 <use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 356.
+Package pdftex.def Info: Git-Logo-2Color.png  used on input line 343.
 (pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
 [38
 
-]pdfTeX warning (ext4): destination with the same identifier (name{why-not-to-u
-se-git}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{why-use-git}
+) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.356 \end{frame}
+l.343 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{id}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.356 \end{frame}
+l.343 \end{frame}
                  
 File: Git-Logo-2Color.png Graphic file (type png)
 <use Git-Logo-2Color.png>
-Package pdftex.def Info: Git-Logo-2Color.png  used on input line 356.
+Package pdftex.def Info: Git-Logo-2Color.png  used on input line 343.
 (pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
 [39
+
+]pdfTeX warning (ext4): destination with the same identifier (name{why-use-git}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.343 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{id}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.343 \end{frame}
+                 
+File: Git-Logo-2Color.png Graphic file (type png)
+<use Git-Logo-2Color.png>
+Package pdftex.def Info: Git-Logo-2Color.png  used on input line 343.
+(pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
+[40
+
+]pdfTeX warning (ext4): destination with the same identifier (name{why-use-git}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.343 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{id}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.343 \end{frame}
+                 
+File: Git-Logo-2Color.png Graphic file (type png)
+<use Git-Logo-2Color.png>
+Package pdftex.def Info: Git-Logo-2Color.png  used on input line 343.
+(pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
+[41
+
+]pdfTeX warning (ext4): destination with the same identifier (name{why-use-git}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.343 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{id}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.343 \end{frame}
+                 
+File: Git-Logo-2Color.png Graphic file (type png)
+<use Git-Logo-2Color.png>
+Package pdftex.def Info: Git-Logo-2Color.png  used on input line 343.
+(pdftex.def)             Requested size: 112.9219pt x 47.15419pt.
+[42
+
+]
+<git_origi.png, id=386, 602.25pt x 911.405pt>
+File: git_origi.png Graphic file (type png)
+<use git_origi.png>
+Package pdftex.def Info: git_origi.png  used on input line 378.
+(pdftex.def)             Requested size: 164.30055pt x 248.64151pt.
+
+Overfull \hbox (23.25026pt too wide) in paragraph at lines 378--378
+[][]\T1/lmr/m/n/10.95 (-20) {#id 
+ []
+
+
+Overfull \vbox (31.0749pt too high) detected at line 378
+ []
+
+[43
+
+ <./git_origi.png>]pdfTeX warning (ext4): destination with the same identifier 
+(name{why-not-to-use-git}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.378 \end{frame}
+                 
+File: git_origi.png Graphic file (type png)
+<use git_origi.png>
+Package pdftex.def Info: git_origi.png  used on input line 378.
+(pdftex.def)             Requested size: 164.30055pt x 248.64151pt.
+
+Overfull \hbox (23.25026pt too wide) in paragraph at lines 378--378
+[][]\T1/lmr/m/n/10.95 (-20) {#id 
+ []
+
+
+Overfull \vbox (31.0749pt too high) detected at line 378
+ []
+
+[44
+
+]pdfTeX warning (ext4): destination with the same identifier (name{why-not-to-u
+se-git}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.378 \end{frame}
+                 
+File: git_origi.png Graphic file (type png)
+<use git_origi.png>
+Package pdftex.def Info: git_origi.png  used on input line 378.
+(pdftex.def)             Requested size: 164.30055pt x 248.64151pt.
+
+Overfull \hbox (23.25026pt too wide) in paragraph at lines 378--378
+[][]\T1/lmr/m/n/10.95 (-20) {#id 
+ []
+
+
+Overfull \vbox (31.0749pt too high) detected at line 378
+ []
+
+[45
+
+]pdfTeX warning (ext4): destination with the same identifier (name{why-not-to-u
+se-git}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.378 \end{frame}
+                 
+File: git_origi.png Graphic file (type png)
+<use git_origi.png>
+Package pdftex.def Info: git_origi.png  used on input line 378.
+(pdftex.def)             Requested size: 164.30055pt x 248.64151pt.
+
+Overfull \hbox (23.25026pt too wide) in paragraph at lines 378--378
+[][]\T1/lmr/m/n/10.95 (-20) {#id 
+ []
+
+
+Overfull \vbox (31.0749pt too high) detected at line 378
+ []
+
+[46
+
+]pdfTeX warning (ext4): destination with the same identifier (name{why-not-to-u
+se-git}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.378 \end{frame}
+                 
+File: git_origi.png Graphic file (type png)
+<use git_origi.png>
+Package pdftex.def Info: git_origi.png  used on input line 378.
+(pdftex.def)             Requested size: 164.30055pt x 248.64151pt.
+
+Overfull \hbox (23.25026pt too wide) in paragraph at lines 378--378
+[][]\T1/lmr/m/n/10.95 (-20) {#id 
+ []
+
+
+Overfull \vbox (31.0749pt too high) detected at line 378
+ []
+
+[47
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{id}) has bee
 n already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.367 \end{frame}
+l.389 \end{frame}
                  
-<image_4.png, id=321, 602.25pt x 803.0pt>
+<image_4.png, id=420, 602.25pt x 803.0pt>
 File: image_4.png Graphic file (type png)
 <use image_4.png>
-Package pdftex.def Info: image_4.png  used on input line 367.
+Package pdftex.def Info: image_4.png  used on input line 389.
 (pdftex.def)             Requested size: 150.56212pt x 200.74951pt.
 pdfTeX warning (ext4): destination with the same identifier (name{id}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.367 \end{frame}
-                  [40
+l.389 \end{frame}
+                  [48
 
- <./image_4.png>] [41
+ <./image_4.png>] [49
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{id}) has bee
 n already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.401 \end{frame}
+l.423 \end{frame}
                  
-<maxresdefault.jpg, id=338, 1284.8pt x 722.7pt>
+<maxresdefault.jpg, id=438, 1284.8pt x 722.7pt>
 File: maxresdefault.jpg Graphic file (type jpg)
 <use maxresdefault.jpg>
-Package pdftex.def Info: maxresdefault.jpg  used on input line 401.
+Package pdftex.def Info: maxresdefault.jpg  used on input line 423.
 (pdftex.def)             Requested size: 107.05986pt x 60.22118pt.
 pdfTeX warning (ext4): destination with the same identifier (name{id}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.401 \end{frame}
-                  [42
+l.423 \end{frame}
+                  [50
 
  <./maxresdefault.jpg>]pdfTeX warning (ext4): destination with the same identif
 ier (name{github}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.401 \end{frame}
+l.423 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{id}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.401 \end{frame}
+l.423 \end{frame}
                  
 File: maxresdefault.jpg Graphic file (type jpg)
 <use maxresdefault.jpg>
-Package pdftex.def Info: maxresdefault.jpg  used on input line 401.
+Package pdftex.def Info: maxresdefault.jpg  used on input line 423.
 (pdftex.def)             Requested size: 107.05986pt x 60.22118pt.
-[43
+[51
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{github}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.401 \end{frame}
+l.423 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{id}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.401 \end{frame}
+l.423 \end{frame}
                  
 File: maxresdefault.jpg Graphic file (type jpg)
 <use maxresdefault.jpg>
-Package pdftex.def Info: maxresdefault.jpg  used on input line 401.
+Package pdftex.def Info: maxresdefault.jpg  used on input line 423.
 (pdftex.def)             Requested size: 107.05986pt x 60.22118pt.
-[44
+[52
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{github}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.401 \end{frame}
+l.423 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{id}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.401 \end{frame}
+l.423 \end{frame}
                  
 File: maxresdefault.jpg Graphic file (type jpg)
 <use maxresdefault.jpg>
-Package pdftex.def Info: maxresdefault.jpg  used on input line 401.
+Package pdftex.def Info: maxresdefault.jpg  used on input line 423.
 (pdftex.def)             Requested size: 107.05986pt x 60.22118pt.
-[45
+[53
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{github}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.401 \end{frame}
+l.423 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{id}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.401 \end{frame}
+l.423 \end{frame}
                  
 File: maxresdefault.jpg Graphic file (type jpg)
 <use maxresdefault.jpg>
-Package pdftex.def Info: maxresdefault.jpg  used on input line 401.
+Package pdftex.def Info: maxresdefault.jpg  used on input line 423.
 (pdftex.def)             Requested size: 107.05986pt x 60.22118pt.
-[46
+[54
 
-] [47
+] [55
+
+] [56
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{id}) has bee
 n already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.446 \end{frame}
+l.469 \end{frame}
                  
-<image_7.jpg, id=379, 702.625pt x 858.20625pt>
+<image_7.jpg, id=487, 702.625pt x 858.20625pt>
 File: image_7.jpg Graphic file (type jpg)
 <use image_7.jpg>
-Package pdftex.def Info: image_7.jpg  used on input line 446.
+Package pdftex.def Info: image_7.jpg  used on input line 469.
 (pdftex.def)             Requested size: 112.91547pt x 137.91818pt.
 pdfTeX warning (ext4): destination with the same identifier (name{id}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.446 \end{frame}
-                 
-Overfull \vbox (59.29907pt too high) detected at line 446
- []
-
-[48
+l.469 \end{frame}
+                  [57
 
  <./image_7.jpg>]pdfTeX warning (ext4): destination with the same identifier (n
 ame{project-based-design}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.446 \end{frame}
+l.469 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{id}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.446 \end{frame}
+l.469 \end{frame}
                  
 File: image_7.jpg Graphic file (type jpg)
 <use image_7.jpg>
-Package pdftex.def Info: image_7.jpg  used on input line 446.
+Package pdftex.def Info: image_7.jpg  used on input line 469.
 (pdftex.def)             Requested size: 112.91547pt x 137.91818pt.
-
-Overfull \vbox (59.29907pt too high) detected at line 446
- []
-
-[49
+[58
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{project-base
 d-design}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.446 \end{frame}
+l.469 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{id}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.446 \end{frame}
+l.469 \end{frame}
                  
 File: image_7.jpg Graphic file (type jpg)
 <use image_7.jpg>
-Package pdftex.def Info: image_7.jpg  used on input line 446.
+Package pdftex.def Info: image_7.jpg  used on input line 469.
 (pdftex.def)             Requested size: 112.91547pt x 137.91818pt.
-
-Overfull \vbox (59.29907pt too high) detected at line 446
- []
-
-[50
+[59
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{project-base
 d-design}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.446 \end{frame}
+l.469 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{id}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.446 \end{frame}
+l.469 \end{frame}
                  
 File: image_7.jpg Graphic file (type jpg)
 <use image_7.jpg>
-Package pdftex.def Info: image_7.jpg  used on input line 446.
+Package pdftex.def Info: image_7.jpg  used on input line 469.
 (pdftex.def)             Requested size: 112.91547pt x 137.91818pt.
-
-Overfull \vbox (59.29907pt too high) detected at line 446
- []
-
-[51
+[60
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{project-base
 d-design}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.446 \end{frame}
+l.469 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{id}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.446 \end{frame}
+l.469 \end{frame}
                  
 File: image_7.jpg Graphic file (type jpg)
 <use image_7.jpg>
-Package pdftex.def Info: image_7.jpg  used on input line 446.
+Package pdftex.def Info: image_7.jpg  used on input line 469.
 (pdftex.def)             Requested size: 112.91547pt x 137.91818pt.
-
-Overfull \vbox (59.29907pt too high) detected at line 446
- []
-
-[52
+[61
 
 ]
 \openout4 = `song_presentation.vrb'.
@@ -1667,7 +1676,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
 1.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [53
+)) [62
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{my-workflow-starting-a-new-project}) has been already used, duplic
@@ -1675,7 +1684,7 @@ ate ignored
 <to be read again> 
                    \relax 
 l.2 ...arget{my-workflow-starting-a-new-project}{}
-                                                  ) [54
+                                                  ) [63
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{my-workflow-starting-a-new-project}) has been already used, duplic
@@ -1683,7 +1692,7 @@ ate ignored
 <to be read again> 
                    \relax 
 l.2 ...arget{my-workflow-starting-a-new-project}{}
-                                                  ) [55
+                                                  ) [64
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{my-workflow-starting-a-new-project}) has been already used, duplic
@@ -1691,7 +1700,7 @@ ate ignored
 <to be read again> 
                    \relax 
 l.2 ...arget{my-workflow-starting-a-new-project}{}
-                                                  ) [56
+                                                  ) [65
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{my-workflow-starting-a-new-project}) has been already used, duplic
@@ -1699,7 +1708,7 @@ ate ignored
 <to be read again> 
                    \relax 
 l.2 ...arget{my-workflow-starting-a-new-project}{}
-                                                  ) [57
+                                                  ) [66
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{my-workflow-starting-a-new-project}) has been already used, duplic
@@ -1707,7 +1716,7 @@ ate ignored
 <to be read again> 
                    \relax 
 l.2 ...arget{my-workflow-starting-a-new-project}{}
-                                                  ) [58
+                                                  ) [67
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{my-workflow-starting-a-new-project}) has been already used, duplic
@@ -1715,91 +1724,98 @@ ate ignored
 <to be read again> 
                    \relax 
 l.2 ...arget{my-workflow-starting-a-new-project}{}
-                                                  ) [59
+                                                  ) [68
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{id}) has bee
 n already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.493 \end{frame}
+l.516 \end{frame}
                  
-<image_5.jpeg, id=458, 1098.1025pt x 461.725pt>
+<image_5.jpeg, id=566, 1098.1025pt x 461.725pt>
 File: image_5.jpeg Graphic file (type jpg)
 <use image_5.jpeg>
-Package pdftex.def Info: image_5.jpeg  used on input line 493.
+Package pdftex.def Info: image_5.jpeg  used on input line 516.
 (pdftex.def)             Requested size: 263.48296pt x 110.78807pt.
 pdfTeX warning (ext4): destination with the same identifier (name{id}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.493 \end{frame}
-                  [60
+l.516 \end{frame}
+                  [69
 
- <./image_5.jpeg>] [61
+ <./image_5.jpeg>] [70
 
-] [62
+] [71
 
 ]
 \openout4 = `song_presentation.vrb'.
 
-(./song_presentation.vrb) [63
+(./song_presentation.vrb) [72
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-init}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{git-init}{}
-                                    ) [64
+                                    ) [73
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-init}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{git-init}{}
-                                    ) [65
+                                    ) [74
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-init}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{git-init}{}
-                                    ) [66
+                                    ) [75
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-init}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{git-init}{}
-                                    ) [67
+                                    ) [76
+
+] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
+tifier (name{git-init}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \protect\hypertarget{git-init}{}
+                                    ) [77
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{id}) has bee
 n already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.537 \end{frame}
+l.567 \end{frame}
                  
-<image_files.png, id=516, 908.39375pt x 431.6125pt>
+<image_files.png, id=629, 908.39375pt x 431.6125pt>
 File: image_files.png Graphic file (type png)
 <use image_files.png>
-Package pdftex.def Info: image_files.png  used on input line 537.
+Package pdftex.def Info: image_files.png  used on input line 567.
 (pdftex.def)             Requested size: 285.18913pt x 135.50423pt.
 pdfTeX warning (ext4): destination with the same identifier (name{id}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.537 \end{frame}
-                  [68
+l.567 \end{frame}
+                  [78
 
  <./image_files.png>]
 \openout4 = `song_presentation.vrb'.
 
 (./song_presentation.vrb
-<image_git_status.png, id=525, 945.5325pt x 395.4775pt>
+<image_git_status.png, id=638, 945.5325pt x 395.4775pt>
 File: image_git_status.png Graphic file (type png)
 <use image_git_status.png>
 Package pdftex.def Info: image_git_status.png  used on input line 14.
 (pdftex.def)             Requested size: 301.13382pt x 125.95193pt.
-) [69
+) [79
 
  <./image_git_status.png>] (./song_presentation.vrbpdfTeX warning (ext4): desti
 nation with the same identifier (name{git-status}) has been already used, dupli
@@ -1812,7 +1828,7 @@ File: image_git_status.png Graphic file (type png)
 <use image_git_status.png>
 Package pdftex.def Info: image_git_status.png  used on input line 14.
 (pdftex.def)             Requested size: 301.13382pt x 125.95193pt.
-) [70
+) [80
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-status}) has been already used, duplicate ignored
@@ -1824,47 +1840,47 @@ File: image_git_status.png Graphic file (type png)
 <use image_git_status.png>
 Package pdftex.def Info: image_git_status.png  used on input line 14.
 (pdftex.def)             Requested size: 301.13382pt x 125.95193pt.
-) [71
+) [81
 
 ]
 \openout4 = `song_presentation.vrb'.
 
-(./song_presentation.vrb) [72
+(./song_presentation.vrb) [82
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-add}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{git-add}{}
-                                   ) [73
+                                   ) [83
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-add}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{git-add}{}
-                                   ) [74
+                                   ) [84
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-add}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{git-add}{}
-                                   ) [75
+                                   ) [85
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-add}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{git-add}{}
-                                   ) [76
+                                   ) [86
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-add}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{git-add}{}
-                                   ) [77
+                                   ) [87
 
 ]
 \openout4 = `song_presentation.vrb'.
@@ -1875,7 +1891,7 @@ fier (name{id}) has been already used, duplicate ignored
                    \relax 
 l.15 }
       
-<git_add.png, id=584, 901.3675pt x 255.95625pt>
+<git_add.png, id=698, 901.3675pt x 255.95625pt>
 File: git_add.png Graphic file (type png)
 <use git_add.png>
 Package pdftex.def Info: git_add.png  used on input line 15.
@@ -1885,18 +1901,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{id}) has been
 <to be read again> 
                    \relax 
 l.15 }
-      ) [78
+      ) [88
 
  <./git_add.png>]
 \openout4 = `song_presentation.vrb'.
 
 (./song_presentation.vrb
-<git_commit_push.png, id=593, 866.23625pt x 425.59pt>
+<git_commit_push.png, id=707, 866.23625pt x 425.59pt>
 File: git_commit_push.png Graphic file (type png)
 <use git_commit_push.png>
 Package pdftex.def Info: git_commit_push.png  used on input line 11.
 (pdftex.def)             Requested size: 301.12527pt x 147.94566pt.
-) [79
+) [89
 
  <./git_commit_push.png>] (./song_presentation.vrbpdfTeX warning (ext4): destin
 ation with the same identifier (name{git-commit-push}) has been already used, d
@@ -1909,161 +1925,173 @@ File: git_commit_push.png Graphic file (type png)
 <use git_commit_push.png>
 Package pdftex.def Info: git_commit_push.png  used on input line 11.
 (pdftex.def)             Requested size: 301.12527pt x 147.94566pt.
-) [80
+) [90
 
 ]
 \openout4 = `song_presentation.vrb'.
 
-(./song_presentation.vrb) [81
+(./song_presentation.vrb) [91
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-remotes}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{git-remotes}{}
-                                       ) [82
+                                       ) [92
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-remotes}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{git-remotes}{}
-                                       ) [83
+                                       ) [93
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-remotes}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{git-remotes}{}
-                                       ) [84
+                                       ) [94
 
 ]
 \openout4 = `song_presentation.vrb'.
 
-(./song_presentation.vrb) [85
+(./song_presentation.vrb) [95
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
-tifier (name{git-remote}) has been already used, duplicate ignored
+tifier (name{git-remotes-1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2 \protect\hypertarget{git-remote}{}
-                                      ) [86
+l.2 \protect\hypertarget{git-remotes-1}{}
+                                         ) [96
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
-tifier (name{git-remote}) has been already used, duplicate ignored
+tifier (name{git-remotes-1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2 \protect\hypertarget{git-remote}{}
-                                      ) [87
+l.2 \protect\hypertarget{git-remotes-1}{}
+                                         ) [97
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
-tifier (name{git-remote}) has been already used, duplicate ignored
+tifier (name{git-remotes-1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2 \protect\hypertarget{git-remote}{}
-                                      ) [88
+l.2 \protect\hypertarget{git-remotes-1}{}
+                                         ) [98
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
-tifier (name{git-remote}) has been already used, duplicate ignored
+tifier (name{git-remotes-1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2 \protect\hypertarget{git-remote}{}
-                                      ) [89
+l.2 \protect\hypertarget{git-remotes-1}{}
+                                         ) [99
 
 ]
 \openout4 = `song_presentation.vrb'.
 
-(./song_presentation.vrb) [90
+(./song_presentation.vrb) [100
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{review}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{review}{}
-                                  ) [91
+                                  ) [101
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{review}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{review}{}
-                                  ) [92
+                                  ) [102
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{review}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{review}{}
-                                  ) [93
+                                  ) [103
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{review}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{review}{}
-                                  ) [94
+                                  ) [104
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{review}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{review}{}
-                                  ) [95
+                                  ) [105
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{review}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{review}{}
-                                  ) [96
+                                  ) [106
 
-] [97
+] [107
 
-] [98
+] [108
+
+] [109
 
 ]
 \openout4 = `song_presentation.vrb'.
 
-(./song_presentation.vrb) [99
+(./song_presentation.vrb) [110
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{backtracking}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{backtracking}{}
-                                        ) [100
+                                        ) [111
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{backtracking}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{backtracking}{}
-                                        ) [101
+                                        ) [112
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{backtracking}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{backtracking}{}
-                                        ) [102
+                                        ) [113
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{backtracking}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{backtracking}{}
-                                        ) [103
+                                        ) [114
 
 ]
 \openout4 = `song_presentation.vrb'.
 
-(./song_presentation.vrb
-<git_commits.png, id=761, 816.04875pt x 663.47874pt>
+(./song_presentation.vrbpdfTeX warning (ext4): destination with the same identi
+fier (name{id}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 }
+      
+<git_commits.png, id=883, 816.04875pt x 663.47874pt>
 File: git_commits.png Graphic file (type png)
 <use git_commits.png>
-Package pdftex.def Info: git_commits.png  used on input line 7.
+Package pdftex.def Info: git_commits.png  used on input line 21.
 (pdftex.def)             Requested size: 150.55574pt x 122.40755pt.
-) [104
+pdfTeX warning (ext4): destination with the same identifier (name{id}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 }
+      ) [115
 
  <./git_commits.png>] (./song_presentation.vrbpdfTeX warning (ext4): destinatio
 n with the same identifier (name{backtracking-1}) has been already used, duplic
@@ -2071,46 +2099,56 @@ ate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{backtracking-1}{}
-                                          
+                                          pdfTeX warning (ext4): destination wi
+th the same identifier (name{id}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 }
+      
 File: git_commits.png Graphic file (type png)
 <use git_commits.png>
-Package pdftex.def Info: git_commits.png  used on input line 7.
+Package pdftex.def Info: git_commits.png  used on input line 21.
 (pdftex.def)             Requested size: 150.55574pt x 122.40755pt.
-) [105
+) [116
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{backtracking-1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{backtracking-1}{}
-                                          
+                                          pdfTeX warning (ext4): destination wi
+th the same identifier (name{id}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 }
+      
 File: git_commits.png Graphic file (type png)
 <use git_commits.png>
-Package pdftex.def Info: git_commits.png  used on input line 7.
+Package pdftex.def Info: git_commits.png  used on input line 21.
 (pdftex.def)             Requested size: 150.55574pt x 122.40755pt.
-) [106
+) [117
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{backtracking-1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \protect\hypertarget{backtracking-1}{}
-                                          
+                                          pdfTeX warning (ext4): destination wi
+th the same identifier (name{id}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 }
+      
 File: git_commits.png Graphic file (type png)
 <use git_commits.png>
-Package pdftex.def Info: git_commits.png  used on input line 7.
+Package pdftex.def Info: git_commits.png  used on input line 21.
 (pdftex.def)             Requested size: 150.55574pt x 122.40755pt.
-) [107
+) [118
 
 ]
 \openout4 = `song_presentation.vrb'.
 
-(./song_presentation.vrb
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 15.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 15.
-) [108
+(./song_presentation.vrb) [119
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-overview---backtracking}) has been already used, duplicate ign
@@ -2118,7 +2156,7 @@ ored
 <to be read again> 
                    \relax 
 l.2 ...\hypertarget{git-overview---backtracking}{}
-                                                  ) [109
+                                                  ) [120
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-overview---backtracking}) has been already used, duplicate ign
@@ -2126,7 +2164,7 @@ ored
 <to be read again> 
                    \relax 
 l.2 ...\hypertarget{git-overview---backtracking}{}
-                                                  ) [110
+                                                  ) [121
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-overview---backtracking}) has been already used, duplicate ign
@@ -2134,14 +2172,12 @@ ored
 <to be read again> 
                    \relax 
 l.2 ...\hypertarget{git-overview---backtracking}{}
-                                                  ) [111
-
-] [112
+                                                  ) [122
 
 ]
 \openout4 = `song_presentation.vrb'.
 
-(./song_presentation.vrb) [113
+(./song_presentation.vrb) [123
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-overview---branching}) has been already used, duplicate ignore
@@ -2149,7 +2185,7 @@ d
 <to be read again> 
                    \relax 
 l.2 ...ect\hypertarget{git-overview---branching}{}
-                                                  ) [114
+                                                  ) [124
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-overview---branching}) has been already used, duplicate ignore
@@ -2157,7 +2193,7 @@ d
 <to be read again> 
                    \relax 
 l.2 ...ect\hypertarget{git-overview---branching}{}
-                                                  ) [115
+                                                  ) [125
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-overview---branching}) has been already used, duplicate ignore
@@ -2165,7 +2201,7 @@ d
 <to be read again> 
                    \relax 
 l.2 ...ect\hypertarget{git-overview---branching}{}
-                                                  ) [116
+                                                  ) [126
 
 ] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
 tifier (name{git-overview---branching}) has been already used, duplicate ignore
@@ -2173,159 +2209,293 @@ d
 <to be read again> 
                    \relax 
 l.2 ...ect\hypertarget{git-overview---branching}{}
-                                                  ) [117
-
-] [118
-
-] [119
-
-]pdfTeX warning (ext4): destination with the same identifier (name{mass-collabo
-ration}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.801 \end{frame}
-                  [120
-
-]pdfTeX warning (ext4): destination with the same identifier (name{mass-collabo
-ration}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.801 \end{frame}
-                  [121
-
-]pdfTeX warning (ext4): destination with the same identifier (name{mass-collabo
-ration}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.801 \end{frame}
-                  [122
-
-]pdfTeX warning (ext4): destination with the same identifier (name{mass-collabo
-ration}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.801 \end{frame}
-                  [123
-
-] [124
-
-]pdfTeX warning (ext4): destination with the same identifier (name{cloning-an-e
-xisting-repo}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.835 \end{frame}
-                  [125
-
-]pdfTeX warning (ext4): destination with the same identifier (name{cloning-an-e
-xisting-repo}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.835 \end{frame}
-                  [126
-
-]pdfTeX warning (ext4): destination with the same identifier (name{cloning-an-e
-xisting-repo}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.835 \end{frame}
-                  [127
-
-]pdfTeX warning (ext4): destination with the same identifier (name{cloning-an-e
-xisting-repo}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.835 \end{frame}
-                  [128
-
-]pdfTeX warning (ext4): destination with the same identifier (name{cloning-an-e
-xisting-repo}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.835 \end{frame}
-                  [129
-
-]pdfTeX warning (ext4): destination with the same identifier (name{cloning-an-e
-xisting-repo}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.835 \end{frame}
-                  [130
-
-]pdfTeX warning (ext4): destination with the same identifier (name{cloning-an-e
-xisting-repo}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.835 \end{frame}
-                  [131
+                                                  ) [127
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{id}) has bee
 n already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.846 \end{frame}
+l.839 \end{frame}
                  
-<git_fork.png, id=961, 1353.055pt x 913.4125pt>
+<dev-main.png, id=978, 536.0025pt x 807.015pt>
+File: dev-main.png Graphic file (type png)
+<use dev-main.png>
+Package pdftex.def Info: dev-main.png  used on input line 839.
+(pdftex.def)             Requested size: 112.91553pt x 170.00764pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 839.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 839.
+pdfTeX warning (ext4): destination with the same identifier (name{id}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.839 \end{frame}
+                  [128
+
+ <./dev-main.png>]pdfTeX warning (ext4): destination with the same identifier (
+name{git-overview---branching-1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.839 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{id}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.839 \end{frame}
+                 
+File: dev-main.png Graphic file (type png)
+<use dev-main.png>
+Package pdftex.def Info: dev-main.png  used on input line 839.
+(pdftex.def)             Requested size: 112.91553pt x 170.00764pt.
+[129
+
+]pdfTeX warning (ext4): destination with the same identifier (name{git-overview
+---branching-1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.839 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{id}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.839 \end{frame}
+                 
+File: dev-main.png Graphic file (type png)
+<use dev-main.png>
+Package pdftex.def Info: dev-main.png  used on input line 839.
+(pdftex.def)             Requested size: 112.91553pt x 170.00764pt.
+[130
+
+] [131
+
+] [132
+
+]pdfTeX warning (ext4): destination with the same identifier (name{mass-collabo
+ration}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.863 \end{frame}
+                  [133
+
+]pdfTeX warning (ext4): destination with the same identifier (name{mass-collabo
+ration}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.863 \end{frame}
+                  [134
+
+]pdfTeX warning (ext4): destination with the same identifier (name{mass-collabo
+ration}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.863 \end{frame}
+                  [135
+
+]pdfTeX warning (ext4): destination with the same identifier (name{mass-collabo
+ration}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.863 \end{frame}
+                  [136
+
+] [137
+
+]pdfTeX warning (ext4): destination with the same identifier (name{cloning-an-e
+xisting-repo}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.897 \end{frame}
+                  [138
+
+]pdfTeX warning (ext4): destination with the same identifier (name{cloning-an-e
+xisting-repo}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.897 \end{frame}
+                  [139
+
+]pdfTeX warning (ext4): destination with the same identifier (name{cloning-an-e
+xisting-repo}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.897 \end{frame}
+                  [140
+
+]pdfTeX warning (ext4): destination with the same identifier (name{cloning-an-e
+xisting-repo}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.897 \end{frame}
+                  [141
+
+]pdfTeX warning (ext4): destination with the same identifier (name{cloning-an-e
+xisting-repo}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.897 \end{frame}
+                  [142
+
+]pdfTeX warning (ext4): destination with the same identifier (name{cloning-an-e
+xisting-repo}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.897 \end{frame}
+                  [143
+
+]pdfTeX warning (ext4): destination with the same identifier (name{cloning-an-e
+xisting-repo}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.897 \end{frame}
+                  [144
+
+]pdfTeX warning (ext4): destination with the same identifier (name{id}) has bee
+n already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.908 \end{frame}
+                 
+<git_fork.png, id=1104, 1353.055pt x 913.4125pt>
 File: git_fork.png Graphic file (type png)
 <use git_fork.png>
-Package pdftex.def Info: git_fork.png  used on input line 846.
+Package pdftex.def Info: git_fork.png  used on input line 908.
 (pdftex.def)             Requested size: 301.12088pt x 203.27893pt.
 pdfTeX warning (ext4): destination with the same identifier (name{id}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.846 \end{frame}
+l.908 \end{frame}
                  
-Overfull \vbox (6.19524pt too high) detected at line 846
+Overfull \vbox (6.19524pt too high) detected at line 908
  []
 
-[132
+[145
 
  <./git_fork.png>]pdfTeX warning (ext4): destination with the same identifier (
 name{id}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.857 \end{frame}
+l.919 \end{frame}
                  
-<image_8.png, id=973, 1071.00125pt x 700.6175pt>
+<image_8.png, id=1117, 1071.00125pt x 700.6175pt>
 File: image_8.png Graphic file (type png)
 <use image_8.png>
-Package pdftex.def Info: image_8.png  used on input line 857.
+Package pdftex.def Info: image_8.png  used on input line 919.
 (pdftex.def)             Requested size: 301.1203pt x 196.98404pt.
 pdfTeX warning (ext4): destination with the same identifier (name{id}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.857 \end{frame}
-                  [133
+l.919 \end{frame}
+                  [146
 
- <./image_8.png>] [134
+ <./image_8.png>] [147
 
-] [135
+]
+\openout4 = `song_presentation.vrb'.
 
-] [136
+(./song_presentation.vrb) [148
 
-] [137
+] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
+tifier (name{what-i-didnt-teach-you}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \protect\hypertarget{what-i-didnt-teach-you}{}
+                                                  ) [149
+
+] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
+tifier (name{what-i-didnt-teach-you}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \protect\hypertarget{what-i-didnt-teach-you}{}
+                                                  ) [150
+
+] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
+tifier (name{what-i-didnt-teach-you}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \protect\hypertarget{what-i-didnt-teach-you}{}
+                                                  ) [151
+
+] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
+tifier (name{what-i-didnt-teach-you}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \protect\hypertarget{what-i-didnt-teach-you}{}
+                                                  ) [152
+
+] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
+tifier (name{what-i-didnt-teach-you}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \protect\hypertarget{what-i-didnt-teach-you}{}
+                                                  ) [153
+
+] (./song_presentation.vrbpdfTeX warning (ext4): destination with the same iden
+tifier (name{what-i-didnt-teach-you}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \protect\hypertarget{what-i-didnt-teach-you}{}
+                                                  ) [154
+
+] [155
+
+]pdfTeX warning (ext4): destination with the same identifier (name{some-final-h
+elpful-resources}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.975 \end{frame}
+                  [156
+
+]pdfTeX warning (ext4): destination with the same identifier (name{some-final-h
+elpful-resources}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.975 \end{frame}
+                  [157
+
+]
+<git_understand.jpg, id=1220, 602.25pt x 355.3275pt>
+File: git_understand.jpg Graphic file (type jpg)
+<use git_understand.jpg>
+Package pdftex.def Info: git_understand.jpg  used on input line 984.
+(pdftex.def)             Requested size: 342.31197pt x 201.96405pt.
+
+Overfull \vbox (6.5274pt too high) detected at line 984
+ []
+
+[158
+
+ <./git_understand.jpg>] [159
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 1003.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 1003.
+[160
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{thank-you}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.914 \end{frame}
-                  [138
+l.1003 \end{frame}
+                   [161
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{thank-you}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.914 \end{frame}
-                  [139
+l.1003 \end{frame}
+                   [162
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{thank-you}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.914 \end{frame}
-                  [140
+l.1003 \end{frame}
+                   [163
 
 ]
 \tf@nav=\write5
@@ -2337,34 +2507,35 @@ l.914 \end{frame}
 \tf@snm=\write7
 \openout7 = `song_presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 916.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 916.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1005.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1005.
 (./song_presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 916.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 916.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1005.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1005.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25962 strings out of 480608
- 473281 string characters out of 5903631
- 756028 words of memory out of 5000000
- 40794 multiletter control sequences out of 15000+600000
- 583233 words of font info for 87 fonts, out of 8000000 for 9000
+ 26030 strings out of 480608
+ 473667 string characters out of 5903631
+ 752028 words of memory out of 5000000
+ 40789 multiletter control sequences out of 15000+600000
+ 587673 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,67p,805b,860s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,15n,67p,805b,1092s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
 20/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-di
 st/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
 pe1/public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/l
-m/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/sy
-mbols/msam7.pfb>
-Output written on song_presentation.pdf (140 pages, 1446399 bytes).
+m/lmri10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt10.p
+fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
+7.pfb>
+Output written on song_presentation.pdf (163 pages, 1807353 bytes).
 PDF statistics:
- 1180 PDF objects out of 1200 (max. 8388607)
- 989 compressed objects within 10 object streams
- 325 named destinations out of 1000 (max. 500000)
- 8402 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1425 PDF objects out of 1440 (max. 8388607)
+ 1199 compressed objects within 12 object streams
+ 376 named destinations out of 1000 (max. 500000)
+ 10473 words of extra memory for PDF output out of 12000 (max. 10000000)
 

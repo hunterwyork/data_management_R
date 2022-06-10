@@ -80,6 +80,7 @@ knitr::opts_chunk$set(echo = T, mysize = T, size='\\tiny',
   > - [Another Git Tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
   > - [A helpful introduction to Git and GitHub](https://www.analyticsvidhya.com/blog/2020/05/git-github-essential-guide-beginners/)
   > - [Basic Intro to Command Line](https://tutorials.codebar.io/command-line/introduction/tutorial.html)
+  > - [Helpful One-Pager for Command Line](http://mally.stanford.edu/~sr/computing/basic-unix.html)
   > - GUIs for [Macs](https://gitup.co/); [Windows](https://www.sourcetreeapp.com/); and a tutorial for RStudio's built-in [client](https://nceas.github.io/oss-lessons/version-control/4-getting-started-with-git-in-RStudio.html)
   > - This presentation! (Will be on my Github and Xi Song will circulate)
   
@@ -90,9 +91,9 @@ knitr::opts_chunk$set(echo = T, mysize = T, size='\\tiny',
   > - Historically, the main branch of Git was, by default, termed "Master"
   > - This is problematic, and after a bit of pushback, Github changed its defaults in 2020.
   > - I *think* Git has not yet done this, but I could be wrong. 
-  > - In this presentation, there will be some repos that still use the old terminaology because they were initiated before the change. 
+  > - In this presentation, there will be some repos that still use the old terminology because they were initiated before the change. 
   > - Some borrowed material may also make the slight.
-  > - Github gives you instructions for making your default "main" when you create a new repo!
+  > - Github gives you instructions for making your default "main" when you create a new repo, and it's easy in Git as well.
 
 ## Outline
 
@@ -168,7 +169,7 @@ knitr::opts_chunk$set(echo = T, mysize = T, size='\\tiny',
 
 :::: column
 
-![Git](Git-Logo-2Color.png){#id .class width=150 height=80}
+![https://dev.to/xenoxdev/share-a-git-meme-make-the-community-smile-fk0](git_origi.png){#id .class width = 150 height = 230}
 
 ::::
 
@@ -202,8 +203,9 @@ knitr::opts_chunk$set(echo = T, mysize = T, size='\\tiny',
 
 :::
 
+# Questions?
 
-# Designing a workflow around Git
+# Before you use git, a note on Projects
 
 ## Project-based design
 
@@ -248,11 +250,12 @@ knitr::opts_chunk$set(echo = T, mysize = T, size='\\tiny',
 
 ## Git init
 
-  > - Assume we've started a project, and we have a local repository that we want to keep track of on Git.
+  > - Assume we've started a project, and we have a local folder that we want to keep track of on Git.
   > - `git init` is a command which initiates git in a directory. 
   > - I navigate to my folder of choice (`/code`), and in it I use this command.
   >     - To navigate within the command line, use `cd PATH_TO_DIRECTORY`. (`cd` stands for change directory.)
   > - Under the hood, this command creates an invisible subdirectory (`/code/.git`) which git uses to keep track of all my files. 
+  >     - Git works by keeping track of insertions and deletions of your code and associating them with commit messages. More on this later.
   
 ## Git init
 
@@ -288,15 +291,15 @@ knitr::opts_chunk$set(echo = T, mysize = T, size='\\tiny',
 
 ## Git Remotes
 
-  > - Everything done until now has **only** used git and not github. 
+  > - Everything done until the `git push` now  has **only** used git and not github. 
   > - All changes are saved locally, and I can use git in the terminal to explore previous commits. 
   > - However, if I delete the hidden `.git` folder, my computer dies, or something else happens, all previous changes will be lost forever.
   > - Enter, Github!
 
-## Git Remote
+## Git Remotes
 
-  > - After `git init`, the first thing I like to do is sync git with github. 
-  >     - This only has to be done once, and then all other git commands automatically duplicate changes locally to the remote. 
+  > - After or before `git init`, the first thing I like to do is sync git with github. 
+  >     - This only has to be done once, and then all other git commands automatically duplicate changes locally to the remote when you push. 
   > - On www.github.com, you can follow the simple directions to set up a remote repo. You can then follow the given instructions to sync your local repo with the remote. 
   > - An example command would be something like `git remote add origin https://github.com/hunterwyork/occupation.git`
   > - You can set up SSH keys so you don't have to enter you github username and password every time. THIS IS WORTH IT!
@@ -312,6 +315,8 @@ knitr::opts_chunk$set(echo = T, mysize = T, size='\\tiny',
   > - `git status` allows you to check what's going on re: unstaged, staged, commited, and up-to-date files
   > - By now, you have all that you need to have a basic, single-user version control system for keeping track of a project. 
   
+# Example  
+
 # Questions?
   
 # Git overview - Backtracking, Branching
@@ -327,19 +332,18 @@ knitr::opts_chunk$set(echo = T, mysize = T, size='\\tiny',
 ## Backtracking
 
   > - Each commit is associated with a hash. 
-![Example commits](git_commits.png){#id .class width=200 height=200}
-  > - Clicking the copy button copies the hash string onto your clipboard. 
+  > - Clicking the copy button copies the hash string onto your clipboard.
   > - You can also see these manually using `git log`
   > - `git checkout COPIED_HASH` allows you to rollback the repo to the state it was in when you committed that commit.
+
+![Example commits](git_commits.png){#id .class width=200 height=200}
 
 ## Git overview - Backtracking
 
   > - Before you backtrack, you may want to compare two commits 
   > - You can do that using `git diff` in the terminal or by using github within your repo.
-  >    - This looks like https://github.com/github/occupation/compare/c3a414e..faf7c6f
   > - This is a major utility of the GUI of github! Visually inspecting changes between commits allow you to see why your results might have totally changed without you remembering. 
-  
-# Online example [Link](https://github.com/hunterwyork/psid/commit/9e26de063de9976fc07ed3d7515d3fcb2f5bcec7)
+  > - Online example  [Link](https://github.com/hunterwyork/psid/commit/9e26de063de9976fc07ed3d7515d3fcb2f5bcec7)
 
 ## Git overview - Branching
 
@@ -351,13 +355,13 @@ knitr::opts_chunk$set(echo = T, mysize = T, size='\\tiny',
   
 ## Git overview - Branching
 
-
 ::: columns
 
 :::: column
 
   > - An alternative workflow that uses branching is constituted by the "dev" and "prod" mentality.
-  > - "Development" branches allow you to test somethign out before merging it back into "Production" workflows.
+  > - "Development" branches allow you to test something out before merging it back into "Production" workflows.
+  > - This is very aligned with how industry uses git.
   
 ::::
 
@@ -401,19 +405,29 @@ knitr::opts_chunk$set(echo = T, mysize = T, size='\\tiny',
 
 ![https://www.neonscience.org/resources/learning-hub/tutorials/github-git-add](image_8.png){#id .class width=400 height=300}
 
+# Questions?
+
+## What I didn't teach you
+
+ > - `git merge`
+ >     - When you're working on a branch and want to reincorporate it into the main branch, you will have to merge.
+ >     - This is the hardest part of Git. If your merge isn't perfect, you'll have conflicts, which you have to sort out by hand. 
+ > - `git fetch` 
+ >     - Requests updates from remote repository. Useful for collaboration.
+ > - `git clone`
+ >     - For pulling someone elses repo to your local machine from github.
 
 ## Some final helpful resources
 
- > - [Git for large files](https://git-lfs.github.com/)
- > - [Git Cheatsheet](https://wac-cdn.atlassian.com/dam/jcr:e7e22f25-bba2-4ef1-a197-53f46b6df4a5/SWTM-2088_Atlassian-Git-Cheatsheet.pdf?cdnVersion=386)
+ > - [Git for large files - https://git-lfs.github.com/](https://git-lfs.github.com/)
+ > - [Git Cheatsheet - https://wac-cdn.atlassian.com/dam/jcr:e7e22f25-bba2-4ef1-a197-53f46b6df4a5/SWTM-2088_Atlassian-Git-Cheatsheet.pdf?cdnVersion=386](https://wac-cdn.atlassian.com/dam/jcr:e7e22f25-bba2-4ef1-a197-53f46b6df4a5/SWTM-2088_Atlassian-Git-Cheatsheet.pdf?cdnVersion=386)
+ > - [Another Cheatsheet - https://elischei.com/wp-content/uploads/2021/06/git-cheat-sheet-large-scaled.jpg](https://elischei.com/wp-content/uploads/2021/06/git-cheat-sheet-large-scaled.jpg)
  
 
 ## .
 
 ![https://medium.com/@lulu.ilmaknun.q/kompilasi-meme-git-e2fe49c6e33e](git_understand.jpg)
 
-
-# Questions?
 
 
 # Questions, comments?
